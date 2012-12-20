@@ -41,7 +41,7 @@
 {
     
     // customize the appearance of the navigation bar and toolbar
-    UIImage *navBarBackground = [[UIImage imageNamed:@"toolbar.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(25, 25, 25, 25)];
+    UIImage *navBarBackground1 = [[UIImage imageNamed:@"toolbar.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(25, 25, 25, 25)];
     
     [[UINavigationBar appearance] setBackgroundImage:navBarBackground forBarMetrics:UIBarMetricsDefault];
     [[UIToolbar appearance] setBackgroundImage:navBarBackground forToolbarPosition:UIToolbarPositionAny barMetrics:UIBarMetricsDefault];
